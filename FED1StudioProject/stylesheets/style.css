@@ -1,0 +1,16 @@
+﻿#thebrand {
+    background-color: palegoldenrod;
+    color: darkolivegreen;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 48px;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+.importantbeards {
+    color: orangered;
+    font-weight: 900;
+}

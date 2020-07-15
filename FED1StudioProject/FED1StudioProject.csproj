@@ -70,6 +70,7 @@
     <Content Include="classes.html" />
     <Content Include="contact.html" />
     <Content Include="index.html" />
+    <Content Include="stylesheets\style.css" />
     <Content Include="team.html" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -88,7 +89,6 @@
   <ItemGroup>
     <Folder Include="images\" />
     <Folder Include="scripts\" />
-    <Folder Include="stylesheets\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
