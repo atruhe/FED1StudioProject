@@ -15,33 +15,6 @@ h1 {
     font-weight: 900;
 }
 
-/*navbar link styling*/
-nav a {
-    font-weight: bold;
-    color: lightsalmon;
+main{ 
+    background-color: rgba(150, 200, 200, 0.20)
 }
-
-    nav a:hover, nav a:active, nav a:focus {
-        text-decoration: none;
-    }
-
-nav ul {
-    background-color: teal;
-    padding: 0;
-    border-top: 5px ridge darkgray;
-    border-bottom: 5px ridge darkgray;
-}
-
-nav li:hover {
-    background-color: darkblue;
-}
-/*nav link structure - makes nav links horizontal*/
-
-nav ul li {
-    display: inline-block;
-}
-
-    nav ul li a {
-        padding: .5em 1em;
-        display: block;
-    }
