@@ -14,3 +14,7 @@ h1 {
     color: orangered;
     font-weight: 900;
 }
+
+main{ 
+    background-color: rgba(150, 200, 200, 0.20)
+}
