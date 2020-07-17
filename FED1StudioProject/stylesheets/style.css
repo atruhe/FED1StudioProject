@@ -1,9 +1,14 @@
 ﻿#thebrand {
-    background-color: palegoldenrod;
+    background-color: rgba(150, 200, 200, 0.20);
     color: darkolivegreen;
     font-style: italic;
     font-weight: bolder;
-    font-size: 48px;
+    font-size: 34px;
+    background-image: url('../images/beard-logo.png');
+    background-repeat: no-repeat;
+    background-size: 70px;
+    background-position: 1%;
+    padding: 1em 0em 1em 2.5em;
 }
 
 h1 {
@@ -19,10 +24,9 @@ main {
     background-color: rgba(150, 200, 200, 0.20)
 }
 
-
 nav a {
     font-weight: bold;
-    color: lightsalmon;
+    color: darkolivegreen;
 }
 
     nav a:hover, nav a:active, nav a:focus {
@@ -30,12 +34,12 @@ nav a {
     }
 
 nav ul {
-    background-color: rgba(255, 216, 0, 0.20);
+    background-color: rgba(150, 200, 200, 0.20);
     padding: 0;
 }
 
 nav li:hover {
-    background-color: darkblue;
+    background-color: mediumpurple;
 }
 /*nav link structure - makes nav links horizontal*/
 
