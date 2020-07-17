@@ -69,7 +69,12 @@
   <ItemGroup>
     <Content Include="classes.html" />
     <Content Include="contact.html" />
+    <Content Include="images\apothecary-87-Wg3J83R1YSQ-unsplash.jpg" />
     <Content Include="images\beard-logo.png" />
+    <Content Include="images\dakota-macek-F3GZNdu22_w-unsplash.jpg" />
+    <Content Include="images\nathon-oski-fE42nRlBcG8-unsplash.jpg" />
+    <Content Include="images\vaishnav-chogale-XeElxiYTbs0-unsplash.jpg" />
+    <Content Include="images\wonderlane-WzWScssFGJU-unsplash.jpg" />
     <Content Include="index.html" />
     <Content Include="stylesheets\style.css" />
     <Content Include="team.html" />
