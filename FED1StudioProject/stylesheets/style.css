@@ -51,3 +51,11 @@ nav ul li {
         padding: .4em 1em;
         display: block;
     }
+
+body {
+    background-color: rgba(150, 200, 200, 0.20);
+    background-size: 50%;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
