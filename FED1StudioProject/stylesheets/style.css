@@ -3,7 +3,12 @@
     color: darkolivegreen;
     font-style: italic;
     font-weight: bolder;
-    font-size: 48px;
+    font-size: 34px;
+    background-image: url('../images/beard-logo.png');
+    background-repeat: no-repeat;
+    background-size: 70px;
+    background-position: 4% center;
+    padding: 1em 0em 1em 3em;
 }
 
 h1 {
