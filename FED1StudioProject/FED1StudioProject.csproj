@@ -71,6 +71,13 @@
     <Content Include="contact.html" />
     <Content Include="images\apothecary-87-Wg3J83R1YSQ-unsplash.jpg" />
     <Content Include="images\beard-logo.png" />
+    <Content Include="images\beard_background.png" />
+    <Content Include="images\class1.jpg" />
+    <Content Include="images\class2.jpg" />
+    <Content Include="images\class3.jpg" />
+    <Content Include="images\class4.jpg" />
+    <Content Include="images\class5.jpg" />
+    <Content Include="images\class6.jpg" />
     <Content Include="images\dakota-macek-F3GZNdu22_w-unsplash.jpg" />
     <Content Include="images\nathon-oski-fE42nRlBcG8-unsplash.jpg" />
     <Content Include="images\vaishnav-chogale-XeElxiYTbs0-unsplash.jpg" />

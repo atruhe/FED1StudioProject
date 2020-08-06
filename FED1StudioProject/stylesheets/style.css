@@ -3,12 +3,13 @@
     color: darkolivegreen;
     font-style: italic;
     font-weight: bolder;
-    font-size: 34px;
+    font-size: 40px;
     background-image: url('../images/beard-logo.png');
     background-repeat: no-repeat;
     background-size: 70px;
+
     background-position: 1%;
-    padding: 1em 0em 1em 2.5em;
+    padding: 1em 0em 1em 3.1em;
 }
 
 h1 {
@@ -52,10 +53,59 @@ nav ul li {
         display: block;
     }
 
-body {
-    background-color: rgba(150, 200, 200, 0.20);
+body div#backgroundBeard {
+    background-image: url('../images/beard_background.png');
     background-size: 50%;
-    background-position: right;
+    background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+
+div#maxWidth {
+    max-width: 700px;
+    margin: auto;
+}
+
+#imageGallery {
+    margin: 0 auto;
+    width: 85%;
+    text-align: center;
+}
+
+div.galleryItem {
+    display: inline-block;
+    width: 250px;
+    height: auto;
+    margin: 15px 5px;
+}
+
+div.galleryItem img{
+    width: 235px;
+    height: 180px;
+    top: auto;
+}
+
+/*
+    #imageGallery {
+    margin: 0 auto;
+    width: 85%;
+    text-align: center;
+}
+
+div.galleryItem {
+    margin: 5px;
+    border: 1px solid lightsalmon;
+    display: inline-block;
+    width: 350px;
+}
+
+    div.galleryItem:hover {
+        border: 1px solid lightsalmon;
+    }
+
+    div.galleryItem img {
+        width: 25%;
+        height: auto;
+    }
+
+*/
