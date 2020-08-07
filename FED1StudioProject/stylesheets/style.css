@@ -7,19 +7,26 @@
     background-image: url('../images/beard-logo.png');
     background-repeat: no-repeat;
     background-size: 70px;
-
     background-position: 1%;
     padding: 1em 0em 1em 3.1em;
 }
 
 h1 {
-    font-size: 24px;
+    font-size: 2em;
 }
 
 .importantbeards {
-    color: orangered;
+    font-size: 1.5em;
     font-weight: 900;
+    clear: left;
 }
+
+    .importantbeards img {
+        float: left;
+        max-width: 20%;
+        margin-bottom: 10px;
+        margin-right: 20px;
+    }
 
 main {
     background-color: rgba(150, 200, 200, 0.20)
@@ -55,8 +62,8 @@ nav ul li {
 
 body div#backgroundBeard {
     background-image: url('../images/beard_background.png');
-    background-size: 50%;
-    background-position: center;
+    background-size: 35%;
+    background-position: top;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
@@ -79,33 +86,46 @@ div.galleryItem {
     margin: 15px 5px;
 }
 
-div.galleryItem img{
-    width: 235px;
-    height: 180px;
-    top: auto;
+    div.galleryItem img {
+        width: 235px;
+        height: 180px;
+    }
+
+.clear {
+    clear: both;
 }
 
-/*
-    #imageGallery {
-    margin: 0 auto;
-    width: 85%;
+.centered {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
     text-align: center;
 }
 
-div.galleryItem {
-    margin: 5px;
-    border: 1px solid lightsalmon;
-    display: inline-block;
-    width: 350px;
+#leftColumn {
+    width: 70%;
+    float: left;
 }
 
-    div.galleryItem:hover {
-        border: 1px solid lightsalmon;
-    }
+#rightColumn {
+    width: 20%;
+    float: right;
+    position: sticky;
+}
 
-    div.galleryItem img {
-        width: 25%;
-        height: auto;
-    }
+.whyimg {
+    max-width: 50%;
+    margin-right: auto
+}
 
-*/
+.whyleftcolumn {
+    width: 100%;
+    float: left;
+}
+
+.whyrightcolumn {
+    width: 100%;
+    float: right;
+}
