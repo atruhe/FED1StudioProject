@@ -69,7 +69,10 @@
   <ItemGroup>
     <Content Include="classes.html" />
     <Content Include="contact.html" />
+    <Content Include="images\android-chrome-192x192.png" />
+    <Content Include="images\android-chrome-512x512.png" />
     <Content Include="images\apothecary-87-Wg3J83R1YSQ-unsplash.jpg" />
+    <Content Include="images\apple-touch-icon.png" />
     <Content Include="images\beard-logo.png" />
     <Content Include="images\beard_background.png" />
     <Content Include="images\class1.jpg" />
@@ -79,6 +82,9 @@
     <Content Include="images\class5.jpg" />
     <Content Include="images\class6.jpg" />
     <Content Include="images\dakota-macek-F3GZNdu22_w-unsplash.jpg" />
+    <Content Include="images\favicon-16x16.png" />
+    <Content Include="images\favicon-32x32.png" />
+    <Content Include="images\favicon.ico" />
     <Content Include="images\imgabout.jpg" />
     <Content Include="images\imgadmin1.jpg" />
     <Content Include="images\imgadmin2.jpg" />
@@ -98,6 +104,7 @@
     <Content Include="images\vaishnav-chogale-XeElxiYTbs0-unsplash.jpg" />
     <Content Include="images\wonderlane-WzWScssFGJU-unsplash.jpg" />
     <Content Include="index.html" />
+    <Content Include="js\html5shiv.js" />
     <Content Include="stylesheets\style.css" />
     <Content Include="team.html" />
     <Content Include="Web.config" />
@@ -106,6 +113,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="images\site.webmanifest" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

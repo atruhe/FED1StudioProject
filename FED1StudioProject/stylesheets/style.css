@@ -1,6 +1,9 @@
-﻿#thebrand {
-    background-color: rgba(150, 200, 200, 0.20);
+﻿@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+#thebrand {
+    /*background-color: rgba(150, 200, 200, 0.20);*/
     color: darkolivegreen;
+    font-family: 'Bebas Neue', cursive;
     font-style: italic;
     font-weight: bolder;
     font-size: 40px;
@@ -29,7 +32,7 @@ h1 {
     }
 
 main {
-    background-color: rgba(150, 200, 200, 0.20)
+    /*background-color: rgba(150, 200, 200, 0.20)*/
 }
 
 nav a {
@@ -42,7 +45,7 @@ nav a {
     }
 
 nav ul {
-    background-color: rgba(150, 200, 200, 0.20);
+    /*background-color: rgba(150, 200, 200, 0.20);*/
     padding: 0;
 }
 
@@ -73,24 +76,6 @@ div#maxWidth {
     margin: auto;
 }
 
-#imageGallery {
-    margin: 0 auto;
-    width: 85%;
-    text-align: center;
-}
-
-div.galleryItem {
-    display: inline-block;
-    width: 250px;
-    height: auto;
-    margin: 15px 5px;
-}
-
-    div.galleryItem img {
-        width: 235px;
-        height: 180px;
-    }
-
 .clear {
     clear: both;
 }
@@ -107,17 +92,19 @@ h1 {
 #leftColumn {
     width: 70%;
     float: left;
+    background-color: transparent;
 }
 
 #rightColumn {
     width: 20%;
     float: right;
     position: sticky;
+    background-color: transparent;
 }
 
 .whyimg {
     max-width: 50%;
-    margin-right: auto
+    margin-right: auto;
 }
 
 .whyleftcolumn {
@@ -130,10 +117,57 @@ h1 {
     float: right;
 }
 
-.footersociallinks{
+.footersociallinks {
     text-align: right;
 }
-.contactsection{
+
+.contactsection {
     text-align: left;
     padding-left: 30%;
+}
+
+/* Add some padding inside the card container */
+.container {
+    padding: 2px 16px;
+}
+
+/*Classes Page*/
+
+#imageGallery {
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+    
+}
+
+.galleryItem {
+    display: inline-grid;
+    width: 235px;
+    margin: 15px;   
+    height: auto;   
+}
+
+.description {
+    min-height: 150px;
+    text-align: justify;
+}
+
+/*Card Styling*/
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: .2s;    
+}
+
+    .card:hover {
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    }
+
+.classimage {
+    width: 235px;
+    height: 180px;
+    vertical-align:top;
+}
+
+.customfont{
+    font-family: 'Bebas Neue', cursive;
 }
